@@ -1,12 +1,31 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
+.DS_Store
+*.[56789ao]
+*.a[56789o]
 *.so
-*.dylib
-
-# Test binary, build with `go test -c`
-*.test
-
-# Output of the go coverage tool, specifically when used with LiteIDE
+*.pyc
+._*
+.nfs.*
+[56789a].out
+*~
+*.orig
+*.rej
+*.exe
+.*.swp
+*.cgo*.go
+*.cgo*.c
+_cgo_*
+_obj
+_test
+_testmain.go
 *.out
+/VERSION.cache
+/bin/
+.idea/**
+config.toml
+/tls/*
+
+# This file includes artifacts of Go build that should not be checked in.
+# For files created by specific development environment (e.g. editor),
+# use alternative ways to exclude files from git.
+# For example, set up .git/info/exclude or use a global .gitignore.
+rld_notifier.bat
